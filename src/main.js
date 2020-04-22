@@ -2,6 +2,10 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 
+// 导入全局样式表
+import './assets/global.css'
+import './plugins/element.js'
+
 Vue.config.productionTip = false
 
 new Vue({
